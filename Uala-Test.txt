@@ -1,0 +1,46 @@
+Uala-movies
+
+  Uala-movies es una empresa pujante que nos ha encargado relevar su negocio, que consiste en ofrecer por streaming series, películas y documentales.
+  De éstos se sabe el año de estreno y la duración. Dentro del sistema también están los usuarios, que se suscriben y tienen acceso a todo el contenido. 
+  Hay 3 tipos de suscripciones: classic, gold y platinum.
+
+* Sabemos cuándo un producto es interesante:
+	1-En una serie, tiene que tener 4 ó 5 temporadas
+	2-En una película, porque ganó al menos un Oscar
+	3-En un documental, si en el título dice la palabra “unofficial”
+
+* Los usuarios pueden estar tristes, contentos o melancólicos. En la hora de pedir las recomendaciones al sistema difiere según su estado:
+	1-Si está triste le interesan los contenidos que duran más de 2hs.
+	2-Si está contento le viene bien cualquier contenido.
+	3-Si está melancólico solo quiere ver los que hayan sido estrenados hace más de 10 años.
+
+
+* Se pide realizar el modelado de objetos que resuelva los siguientes requerimientos:
+
+* Saber si un cliente mira algo interesante.
+* Efectuar cobro por parte de Uala-movies, donde debe realizar el cobro necesario.
+* El costo a pagar difiere de usuario a usuario. Cada tipo de suscripción tiene un costo distinto, y además si un usuario 
+  está registrado hace más de 1 año tiene un 3% de descuento por año de registro. 
+  Puede pagar con tarjeta de crédito o por paypal, donde con éste último tiene un 2% de descuento adicional extra.
+  Puede que se agreguen nuevos descuentos más adelante.
+
+
+
+* Hacer la funcionalidad para que el usuario entre al sistema, lo cual va a depender de su suscripción:
+	1-Classic: puede entrar 1 sola persona a la vez.
+	2-Gold: pueden entrar hasta 3 a la vez.
+	3-Platinum: pueden entrar hasta 5 a la vez.
+
+
+* Poder pedirle recomendaciones al sistema basándose en el estado del usuario.
+* Realizar el unit testing.
+* Especificar en el archivo "Design Patterns.txt" los patrones de diseño utilizados y dónde se usaron.
+* Diagrama de clases de la solución planteada.
+
+
+* Aclaraciones importantes:
+
+Lo mas importante es el diseño, para eso necesitamos algún diagrama de clases de la solución, si te resulta mas fácil hacerlo en papel y subir la foto no hay 
+problema, mientras se entienda para nosotros es suficiente.
+La solución debe ser con Java puro, no usar ningún framework (Spring, Spark, Jersey, etc).
+Nos interesa ver como plantearías el testing, no es necesario cubrir toda la casuística, con que sea un happy path estamos bien.
